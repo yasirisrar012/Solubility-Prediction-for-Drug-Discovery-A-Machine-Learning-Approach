@@ -38,9 +38,9 @@ The dataset used is the **Delaney Solubility Dataset**, which provides solubilit
 - Visualize predictions vs actual values for both models.  
 
 ## Results and Insights  
-- **Linear Regression**: Provides a baseline performance but struggles with non-linear relationships.  
-- **Random Forest**: Achieves higher accuracy due to its ability to capture complex patterns in the data.  
-- **Feature Importance**: Analysis reveals the impact of each descriptor on solubility predictions.  
+- **Linear Regression Performs Better Overall**: It achieves lower MSE and higher R² on the test set, indicating better generalization compared to Random Forest.
+- **Random Forest Shows Signs of Overfitting**: The Test MSE for Random Forest is significantly higher than its Training MSE, suggesting it might be overfitting the training data.
+- **Complexity vs Simplicity**: Random Forest, being a more complex model, might not always outperform simpler models like Linear Regression on smaller datasets or when the relationships between features and the target are relatively linear.
 
 ## Applications in the Pharmaceutical Industry  
 This project demonstrates the potential of machine learning in solving real-world problems such as:  
