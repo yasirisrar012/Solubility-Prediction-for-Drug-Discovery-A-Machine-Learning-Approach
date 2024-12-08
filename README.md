@@ -1,4 +1,4 @@
-# Molecular Solubility Prediction with Machine Learning  
+# Solubility Prediction for Drug Discovery : A Machine Learning Approach  
 
 ## Project Overview  
 This project focuses on predicting the aqueous solubility (**logS**) of chemical compounds using molecular descriptors and machine learning techniques. The dataset utilized includes molecular features such as `MolLogP`, `MolWt`, `NumRotatableBonds`, and `AromaticProportion`. Two machine learning models, **Linear Regression** and **Random Forest**, are implemented and compared to evaluate their predictive performance.  
